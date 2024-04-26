@@ -18,7 +18,7 @@ const Index = () => {
   return (
     <Container maxW="container.md" py={10}>
       <VStack spacing={8}>
-        <Image src="https://images.unsplash.com/photo-1608136692670-0c2b5b3c5e60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTcxNDE0NTQwMnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Wedding Couple" width="100%" />
+        <Image src="your-uploaded-image-url.jpg" alt="Wedding Couple" width="100%" />
         <Heading as="h1" size="xl" textAlign="center">
           Emma & Chris's Wedding
         </Heading>
