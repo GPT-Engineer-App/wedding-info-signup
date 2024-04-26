@@ -47,6 +47,10 @@ const Index = () => {
               <FormLabel htmlFor="email">Email Address</FormLabel>
               <Input id="email" type="email" placeholder="john@example.com" />
             </FormControl>
+            <FormControl isRequired>
+              <FormLabel htmlFor="food">Food Preference</FormLabel>
+              <Input id="food" placeholder="e.g., Vegetarian, Vegan" />
+            </FormControl>
             <Button leftIcon={<FaUserPlus />} colorScheme="pink" type="submit">
               Register
             </Button>
